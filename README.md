@@ -1,16 +1,32 @@
-## Hi there 👋
+# Furkan Korhan
 
-<!--
-**furkankorhan/furkankorhan** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Aspiring IT apprentice based in Hildesheim, Germany.
 
-Here are some ideas to get you started:
+I am currently preparing for an IT Ausbildung in Germany and building my skills in web technologies, IT systems and technical troubleshooting.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Focus
+
+- Fachinformatiker fuer Systemintegration
+- alternatively Fachinformatiker fuer Anwendungsentwicklung
+- German language course, target level B1
+
+## Current Skills
+
+- Windows setup, troubleshooting and software installation
+- Linux basics, dual boot and virtual machines
+- WordPress, hosting, domains and basic website setup
+- HTML, CSS and first steps with JavaScript
+- Git, GitHub and small web projects
+
+## Current Goals
+
+- build a clean GitHub portfolio
+- publish small practice projects
+- improve German and technical communication
+- start an IT Ausbildung in 2026
+
+## Contact
+
+- Website: https://furkankorhan.com
+- GitHub: https://github.com/furkankorhan
+- Email: mail@furkankorhan.com
