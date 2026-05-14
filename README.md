@@ -4,78 +4,89 @@
 
 <p align="center">
   <a href="https://furkankorhan.com">
-    <img src="https://img.shields.io/badge/Portfolio-furkankorhan.com-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio badge" />
+    <img src="https://img.shields.io/badge/Portfolio-furkankorhan.com-101827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="mailto:mail@furkankorhan.com">
-    <img src="https://img.shields.io/badge/Email-mail%40furkankorhan.com-0f766e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" />
+    <img src="https://img.shields.io/badge/Email-mail%40furkankorhan.com-D65B1F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-  <img src="https://img.shields.io/badge/Hildesheim-Germany-0284c7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location badge" />
+  <img src="https://img.shields.io/badge/Hildesheim-Germany-1F9BB4?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Hildesheim, Germany" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Goal-IT%20Ausbildung%202026-111827?style=flat-square" alt="IT Ausbildung 2026 badge" />
-  <img src="https://img.shields.io/badge/Main%20Direction-Informatik-164e63?style=flat-square" alt="Informatik badge" />
-  <img src="https://img.shields.io/badge/Building-Proof%20Over%20Claims-1d4ed8?style=flat-square" alt="Proof over claims badge" />
-  <img src="https://img.shields.io/badge/German-A1%20%E2%86%92%20B1-0f766e?style=flat-square" alt="German learning badge" />
+  <img src="https://img.shields.io/badge/IT%20Ausbildung-2026-111827?style=flat-square" alt="IT Ausbildung 2026" />
+  <img src="https://img.shields.io/badge/Direction-Informatik-D65B1F?style=flat-square" alt="Informatik" />
+  <img src="https://img.shields.io/badge/Method-Build%20%7C%20Explain%20%7C%20Apply-1F9BB4?style=flat-square" alt="Build Explain Apply" />
 </p>
 
-> I am building my way into IT with practical projects, public notes and a clear learning path.
+## This profile is not a trophy shelf
 
-## Hello, I am Furkan
+It is a public workbench.
 
-I am based in Hildesheim, Germany and preparing for an IT Ausbildung in 2026. My path into tech started early: computers, Android experiments, hosting, domains, Linux, WordPress, VPS setups and many small technical problems that made me curious enough to keep digging.
+I am preparing for an IT Ausbildung in Germany and using this GitHub to show the part that a CV cannot show well: how I learn, how I break problems down, how I document, and how I turn curiosity into small working outputs.
 
-Right now I am turning that curiosity into something more structured: small public projects, cleaner documentation, stronger fundamentals and better German for interviews and daily work.
+My background is practical and messy in the good way: computers since childhood, Android experiments, hosting, domains, WordPress, Linux, VPS, small scripts, repair attempts, web tools and many technical rabbit holes. Now I am converting that into a cleaner professional direction.
 
-```text
-Current direction:
-learn the fundamentals -> build small proof -> document the process -> apply better
+```txt
+current loop: notice a weak point -> learn the core -> build a small proof -> explain it simply
 ```
 
-## What Makes This Profile Different
+## Signal
 
-I do not want this GitHub to be a list of random repositories. I want it to show how I think:
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <b>Systems</b><br />
+      Network basics, Linux, hosting, domains, setup, troubleshooting.
+    </td>
+    <td width="33%" valign="top">
+      <b>Web</b><br />
+      HTML, CSS, JavaScript, portfolio building, small UI experiments.
+    </td>
+    <td width="33%" valign="top">
+      <b>Documentation</b><br />
+      Checklists, notes, application tracking, simple explanations.
+    </td>
+  </tr>
+</table>
 
-- I break unclear problems into smaller checks.
-- I prefer practical troubleshooting over memorized theory.
-- I document what I learn so it becomes reusable.
-- I use AI as a tool, but I do not want to publish things I cannot explain.
-- I am building a bridge between systems work and web development.
+## Current Build Map
 
-## Current Focus Board
-
-| Area | What I am building | Why it matters |
+| Track | What I am turning into proof | Status |
 |---|---|---|
-| IT systems | Network troubleshooting notes | Shows practical Systemintegration thinking |
-| Terminal & Linux | Command notes with real examples | Builds daily technical confidence |
-| Web basics | Small HTML/CSS/JS projects | Gives visible proof for Anwendungsentwicklung interest |
-| Applications | Ausbildung tracker and portfolio | Keeps the search organized and measurable |
-| German | Simple IT explanations in German | Prepares for interviews and workplace communication |
+| IT systems | Home network troubleshooting checklist | building |
+| Terminal | Linux/macOS command notes with examples | building |
+| Web basics | Small HTML/CSS/JS exercises and UI pieces | building |
+| Programming | JavaScript/Python fundamentals I can explain line by line | learning |
+| Applications | Ausbildung target tracker and portfolio system | active |
+| German | Short IT explanations in German | daily work |
 
-## Toolbox
+## Tools I am working with
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,html,css,js,wordpress,docker,figma,ps&perline=6" alt="Skill icons" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,html,css,js,wordpress,docker,figma,ps&perline=6" alt="tools" />
 </p>
 
-I am currently strongest in practical setup, web tooling, hosting, domains, troubleshooting and learning fast from examples. I am actively strengthening programming fundamentals with JavaScript and Python.
+I am not listing these as final mastery. I am listing the environment I work in and the tools I am turning into practical evidence.
 
-## Proof I Am Working On
+## How I want this GitHub to read
 
-These are not meant to look huge. They are meant to be clear, honest and explainable.
+A visitor should not leave with: "he added many badges."
 
-- **Home Network Troubleshooting Checklist** - a step-by-step guide for common internet problems
-- **Terminal & Linux Notes** - practical commands with examples and explanations
-- **Application Tracker** - a small tool/workflow for Ausbildung applications
-- **Basic Programming Exercises** - small JavaScript/Python exercises I can explain line by line
+A visitor should leave with:
 
-When a project is public and ready, I will link it here.
+```txt
+He is early, but serious.
+He can learn from unclear problems.
+He documents instead of only consuming.
+He has a visual sense and a technical direction.
+He is building proof for an IT Ausbildung, not just saying he wants one.
+```
 
-## Short German Version
+## German short version
 
-Ich bereite mich aktuell auf eine IT-Ausbildung in Deutschland vor. Besonders interessieren mich Informatik, IT-Systeme, Fehlersuche, Webentwicklung und praktische technische Probleme. Dieses GitHub-Profil zeigt nicht nur fertige Projekte, sondern auch meinen Lernweg und meine Arbeitsweise.
+Ich bereite mich auf eine IT-Ausbildung in Deutschland vor. Dieses GitHub-Profil zeigt meinen Lernweg, kleine technische Projekte und meine Art, Probleme praktisch zu verstehen und zu dokumentieren.
 
-## Contact
+## Links
 
-- Website: [furkankorhan.com](https://furkankorhan.com)
+- Portfolio: [furkankorhan.com](https://furkankorhan.com)
 - Email: [mail@furkankorhan.com](mailto:mail@furkankorhan.com)
