@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Furkan Korhan hero banner" width="100%" />
+  <img src="./assets/hero.svg?v=20260515-2" alt="Furkan Korhan hero banner" width="100%" />
 </p>
 
 <p align="center">
