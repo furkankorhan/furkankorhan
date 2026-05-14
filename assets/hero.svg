@@ -2,14 +2,14 @@
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
       <stop stop-color="#05070D"/>
-      <stop offset="0.56" stop-color="#081524"/>
-      <stop offset="1" stop-color="#102D3A"/>
+      <stop offset="0.58" stop-color="#081524"/>
+      <stop offset="1" stop-color="#112F3B"/>
     </linearGradient>
-    <radialGradient id="warmGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(925 270) rotate(147) scale(390 250)">
-      <stop stop-color="#E86F2A" stop-opacity="0.70"/>
+    <radialGradient id="orangeGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(910 275) rotate(150) scale(430 255)">
+      <stop stop-color="#E86F2A" stop-opacity="0.68"/>
       <stop offset="1" stop-color="#E86F2A" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="coolGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 110) rotate(145) scale(300 190)">
+    <radialGradient id="blueGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1050 112) rotate(150) scale(320 210)">
       <stop stop-color="#5EDAE8" stop-opacity="0.42"/>
       <stop offset="1" stop-color="#5EDAE8" stop-opacity="0"/>
     </radialGradient>
@@ -17,62 +17,92 @@
       <stop stop-color="#E86F2A"/>
       <stop offset="1" stop-color="#5EDAE8"/>
     </linearGradient>
-    <filter id="cardShadow" x="0" y="0" width="1280" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.40"/>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#D69A73"/>
+      <stop offset="0.55" stop-color="#B87458"/>
+      <stop offset="1" stop-color="#8F4F3E"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity="0.42"/>
     </filter>
-    <filter id="softShadow" x="700" y="40" width="430" height="430" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000000" flood-opacity="0.35"/>
+    <filter id="portraitShadow" x="680" y="22" width="520" height="430" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#000000" flood-opacity="0.36"/>
     </filter>
   </defs>
 
-  <rect x="18" y="18" width="1244" height="384" rx="34" fill="url(#bg)" filter="url(#cardShadow)"/>
+  <rect x="18" y="18" width="1244" height="384" rx="34" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="18" y="18" width="1244" height="384" rx="34" fill="url(#orangeGlow)"/>
+  <rect x="18" y="18" width="1244" height="384" rx="34" fill="url(#blueGlow)"/>
   <rect x="18.5" y="18.5" width="1243" height="383" rx="33.5" stroke="white" stroke-opacity="0.08"/>
-  <rect x="18" y="18" width="1244" height="384" rx="34" fill="url(#warmGlow)"/>
-  <rect x="18" y="18" width="1244" height="384" rx="34" fill="url(#coolGlow)"/>
 
-  <path d="M72 326H598" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.88"/>
-  <circle cx="72" cy="326" r="5" fill="#E86F2A"/>
-  <circle cx="598" cy="326" r="5" fill="#5EDAE8"/>
-
+  <path d="M72 320H594" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
   <text x="72" y="128" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Merhaba, ben Furkan.</text>
-  <text x="76" y="178" fill="#F7B06A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Informatik yolumu acik sekilde insa ediyorum.</text>
+  <text x="76" y="178" fill="#F7B06A" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Informatik yolumu açık şekilde inşa ediyorum.</text>
   <text x="76" y="226" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">IT systems, web basics, troubleshooting and Ausbildung preparation.</text>
   <text x="76" y="260" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17">Hildesheim, Germany | IT Ausbildung 2026</text>
 
-  <rect x="76" y="350" width="144" height="34" rx="17" fill="#111827" stroke="#E86F2A" stroke-opacity="0.52"/>
-  <text x="112" y="372" fill="#FFE0C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Systems</text>
-  <rect x="232" y="350" width="112" height="34" rx="17" fill="#111827" stroke="#5EDAE8" stroke-opacity="0.52"/>
-  <text x="268" y="372" fill="#D6FBFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Web</text>
-  <rect x="356" y="350" width="178" height="34" rx="17" fill="#111827" stroke="white" stroke-opacity="0.16"/>
-  <text x="394" y="372" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Build log</text>
+  <rect x="76" y="346" width="144" height="34" rx="17" fill="#111827" stroke="#E86F2A" stroke-opacity="0.52"/>
+  <text x="112" y="368" fill="#FFE0C7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Systems</text>
+  <rect x="232" y="346" width="112" height="34" rx="17" fill="#111827" stroke="#5EDAE8" stroke-opacity="0.52"/>
+  <text x="268" y="368" fill="#D6FBFF" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Web</text>
+  <rect x="356" y="346" width="178" height="34" rx="17" fill="#111827" stroke="white" stroke-opacity="0.16"/>
+  <text x="394" y="368" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Build log</text>
 
-  <g filter="url(#softShadow)">
-    <circle cx="940" cy="212" r="140" fill="#07101A" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
-    <circle cx="940" cy="212" r="118" fill="#0C1724"/>
+  <g filter="url(#portraitShadow)">
+    <circle cx="955" cy="206" r="150" fill="#07101A" stroke="white" stroke-opacity="0.08" stroke-width="2"/>
+    <circle cx="955" cy="206" r="123" fill="#0C1724"/>
 
-    <path d="M842 342C858 292 894 263 940 263C987 263 1024 292 1038 342H842Z" fill="#111827"/>
-    <path d="M876 340C888 305 910 287 940 287C970 287 993 305 1004 340H876Z" fill="#172033"/>
+    <!-- shoulders and dark shirt -->
+    <path d="M808 382C828 312 883 276 955 276C1028 276 1084 312 1102 382H808Z" fill="#101827"/>
+    <path d="M855 382C870 328 905 304 955 304C1005 304 1041 328 1056 382H855Z" fill="#172033"/>
+    <path d="M888 315C912 336 999 336 1023 315" stroke="#273449" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
 
-    <ellipse cx="940" cy="186" rx="58" ry="70" fill="#C88963"/>
-    <path d="M886 182C888 135 912 107 948 108C986 109 1008 139 1004 187C988 169 967 160 940 160C916 160 898 167 886 182Z" fill="#2B1A15"/>
+    <!-- neck -->
+    <path d="M922 258H988V308C968 321 943 321 922 308V258Z" fill="#9D5C48"/>
 
-    <circle cx="899" cy="126" r="18" fill="#D65B1F"/>
-    <circle cx="922" cy="105" r="20" fill="#E86F2A"/>
-    <circle cx="949" cy="101" r="22" fill="#F28A34"/>
-    <circle cx="977" cy="116" r="19" fill="#D65B1F"/>
-    <circle cx="1000" cy="143" r="15" fill="#A9461B"/>
-    <circle cx="884" cy="153" r="17" fill="#A9461B"/>
+    <!-- face silhouette closer to avatar: long face, straight gaze -->
+    <path d="M898 164C899 120 920 94 955 94C992 94 1013 121 1014 165C1015 224 990 270 956 270C921 270 897 224 898 164Z" fill="url(#skin)"/>
+    <path d="M902 172C908 121 924 103 956 103C989 103 1006 123 1010 173C996 154 979 145 956 145C933 145 915 154 902 172Z" fill="#2A1914"/>
 
-    <path d="M912 191C920 187 928 187 936 191" stroke="#231612" stroke-width="4" stroke-linecap="round"/>
-    <path d="M952 191C960 187 968 187 976 191" stroke="#231612" stroke-width="4" stroke-linecap="round"/>
-    <path d="M939 199C936 215 937 224 946 228" stroke="#8C5A42" stroke-width="4" stroke-linecap="round"/>
-    <path d="M921 237C934 247 954 247 967 237" stroke="#5A2A21" stroke-width="5" stroke-linecap="round"/>
-    <path d="M906 213C916 209 926 209 936 213" stroke="#E3A07A" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
-    <path d="M954 213C964 209 974 209 984 213" stroke="#E3A07A" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round"/>
+    <!-- curly orange hair based on avatar -->
+    <circle cx="900" cy="134" r="18" fill="#A94418"/>
+    <circle cx="912" cy="112" r="20" fill="#D65B1F"/>
+    <circle cx="934" cy="96" r="22" fill="#F28A34"/>
+    <circle cx="960" cy="91" r="23" fill="#E86F2A"/>
+    <circle cx="986" cy="101" r="21" fill="#C9551D"/>
+    <circle cx="1008" cy="124" r="18" fill="#9F3E18"/>
+    <circle cx="889" cy="159" r="15" fill="#7E2F16"/>
+    <circle cx="928" cy="122" r="18" fill="#F0792D"/>
+    <circle cx="976" cy="124" r="18" fill="#D65B1F"/>
 
-    <path d="M874 184C875 239 901 279 941 279C981 279 1008 239 1008 184" stroke="#5EDAE8" stroke-opacity="0.20" stroke-width="10" stroke-linecap="round"/>
-    <path d="M1018 265C1050 242 1070 205 1070 163" stroke="#E86F2A" stroke-opacity="0.28" stroke-width="8" stroke-linecap="round"/>
+    <!-- ears -->
+    <ellipse cx="889" cy="184" rx="13" ry="22" fill="#A8614B"/>
+    <ellipse cx="1022" cy="184" rx="13" ry="22" fill="#A8614B"/>
+
+    <!-- orange and cyan light like profile photo -->
+    <path d="M892 156C888 197 899 240 923 260" stroke="#E86F2A" stroke-opacity="0.42" stroke-width="10" stroke-linecap="round"/>
+    <path d="M1012 156C1018 198 1005 239 985 260" stroke="#5EDAE8" stroke-opacity="0.34" stroke-width="10" stroke-linecap="round"/>
+
+    <!-- face details: eyebrows, eyes, nose, beard -->
+    <path d="M918 181C929 176 939 176 948 181" stroke="#1A1110" stroke-width="5" stroke-linecap="round"/>
+    <path d="M964 181C975 176 986 176 996 181" stroke="#1A1110" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="934" cy="194" rx="6" ry="5" fill="#111827"/>
+    <ellipse cx="980" cy="194" rx="6" ry="5" fill="#111827"/>
+    <circle cx="936" cy="192" r="2" fill="#D6FBFF" opacity="0.85"/>
+    <circle cx="982" cy="192" r="2" fill="#D6FBFF" opacity="0.85"/>
+    <path d="M956 200C951 218 952 231 963 235" stroke="#754434" stroke-width="4" stroke-linecap="round"/>
+    <path d="M925 241C935 255 976 256 987 241" stroke="#422018" stroke-width="10" stroke-linecap="round" opacity="0.82"/>
+    <path d="M917 222C925 260 947 279 957 279C968 279 991 260 998 222" stroke="#2C1815" stroke-width="16" stroke-linecap="round" opacity="0.50"/>
+    <path d="M936 246C948 252 966 252 978 246" stroke="#D99A78" stroke-width="4" stroke-linecap="round" opacity="0.72"/>
+
+    <!-- laptop in hands -->
+    <rect x="820" y="310" width="270" height="86" rx="12" fill="#0B1220" stroke="#5EDAE8" stroke-opacity="0.22"/>
+    <rect x="838" y="326" width="234" height="52" rx="8" fill="#111827"/>
+    <text x="925" y="361" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" font-weight="800">FK</text>
+    <path d="M790 394H1120" stroke="#1F2937" stroke-width="8" stroke-linecap="round"/>
+    <path d="M872 322C855 324 842 333 832 348" stroke="#A8614B" stroke-width="13" stroke-linecap="round"/>
+    <path d="M1038 322C1055 324 1068 333 1078 348" stroke="#A8614B" stroke-width="13" stroke-linecap="round"/>
   </g>
 
-  <text x="852" y="380" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">proof over claims</text>
+  <text x="842" y="384" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14">proof over claims</text>
 </svg>
