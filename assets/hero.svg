@@ -1,68 +1,63 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0B1120"/>
-      <stop offset="0.55" stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#082F49"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#030712"/>
+      <stop offset="0.42" stop-color="#07111F"/>
+      <stop offset="1" stop-color="#102536"/>
     </linearGradient>
-    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(980 68) rotate(132.746) scale(310 241.725)">
-      <stop stop-color="#38BDF8" stop-opacity="0.35"/>
-      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(215 320) rotate(-39.2398) scale(329.003 148.398)">
-      <stop stop-color="#14B8A6" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#14B8A6" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="pill" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#0F766E"/>
-      <stop offset="1" stop-color="#0369A1"/>
+    <linearGradient id="orange" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FF9A3D"/>
+      <stop offset="1" stop-color="#D65B1F"/>
     </linearGradient>
-    <filter id="shadow" x="0" y="0" width="1280" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#020617" flood-opacity="0.35"/>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#70E1F5"/>
+      <stop offset="1" stop-color="#1F9BB4"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#D65B1F" stop-opacity="0"/>
+      <stop offset="0.55" stop-color="#FF8A2A" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#70E1F5" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="1300" height="440" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="26" flood-color="#000000" flood-opacity="0.45"/>
     </filter>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" stroke="white" stroke-opacity="0.06"/>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" stroke="white" stroke-opacity="0.045"/>
     </pattern>
   </defs>
 
-  <g filter="url(#shadow)">
-    <rect x="14" y="14" width="1252" height="332" rx="28" fill="url(#bg)"/>
-    <rect x="14" y="14" width="1252" height="332" rx="28" fill="url(#grid)"/>
-    <rect x="14.5" y="14.5" width="1251" height="331" rx="27.5" stroke="white" stroke-opacity="0.08"/>
-  </g>
+  <rect x="18" y="18" width="1244" height="384" rx="30" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="18" y="18" width="1244" height="384" rx="30" fill="url(#grid)"/>
+  <rect x="18.5" y="18.5" width="1243" height="383" rx="29.5" stroke="white" stroke-opacity="0.08"/>
 
-  <circle cx="980" cy="68" r="210" fill="url(#glowA)"/>
-  <circle cx="215" cy="320" r="180" fill="url(#glowB)"/>
+  <path d="M-40 336C176 270 278 294 438 226C614 151 786 96 1320 118" stroke="url(#line)" stroke-width="3" opacity="0.75"/>
+  <path d="M-20 364C193 302 342 322 529 260C716 198 844 164 1320 186" stroke="#70E1F5" stroke-opacity="0.18" stroke-width="2"/>
+  <path d="M882 18L1262 18L1262 402L748 402C854 323 914 253 902 171C895 121 873 72 882 18Z" fill="#020617" fill-opacity="0.38"/>
 
-  <rect x="74" y="76" width="182" height="34" rx="17" fill="#111827" fill-opacity="0.88"/>
-  <circle cx="96" cy="93" r="5" fill="#38BDF8"/>
-  <text x="112" y="99" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600">IT Ausbildung 2026</text>
+  <rect x="74" y="70" width="226" height="36" rx="18" fill="#07111F" stroke="#1F9BB4" stroke-opacity="0.48"/>
+  <circle cx="96" cy="88" r="5" fill="#70E1F5"/>
+  <text x="112" y="94" fill="#C7F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="1.5">INFORMATIK ROUTE</text>
 
-  <text x="74" y="168" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Furkan Korhan</text>
-  <text x="74" y="208" fill="#7DD3FC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="600">Systems, web tooling and practical problem solving</text>
+  <text x="74" y="178" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="800">Furkan Korhan</text>
+  <text x="78" y="218" fill="#FFB169" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Technik verstehen. Probleme lösen. Weiterlernen.</text>
+  <text x="78" y="258" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18">A public build log for IT systems, web basics, German learning and Ausbildung preparation.</text>
 
-  <text x="74" y="252" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18">
-    Building a disciplined route into IT in Germany through public projects,
-  </text>
-  <text x="74" y="280" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="18">
-    hands-on learning and steady technical growth.
-  </text>
+  <rect x="78" y="302" width="152" height="36" rx="18" fill="#111827" stroke="#D65B1F" stroke-opacity="0.65"/>
+  <text x="107" y="325" fill="#FFE3CA" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Systems</text>
+  <rect x="244" y="302" width="142" height="36" rx="18" fill="#111827" stroke="#1F9BB4" stroke-opacity="0.65"/>
+  <text x="286" y="325" fill="#C7F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Web</text>
+  <rect x="400" y="302" width="180" height="36" rx="18" fill="#111827" stroke="white" stroke-opacity="0.18"/>
+  <text x="438" y="325" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Documentation</text>
 
-  <rect x="74" y="304" width="168" height="32" rx="16" fill="#0B1220" fill-opacity="0.84" stroke="#1E293B"/>
-  <text x="106" y="325" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Linux &amp; Hosting</text>
+  <rect x="862" y="76" width="322" height="250" rx="24" fill="#060B14" fill-opacity="0.82" stroke="white" stroke-opacity="0.08"/>
+  <text x="900" y="118" fill="#70E1F5" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="1.2">CURRENT SIGNAL</text>
+  <text x="900" y="160" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="800">Ausbildung 2026</text>
+  <text x="900" y="194" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="16">Hildesheim -> IT career path</text>
+  <line x1="900" y1="222" x2="1148" y2="222" stroke="white" stroke-opacity="0.1"/>
+  <text x="900" y="258" fill="#FFB169" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">build small proof</text>
+  <text x="900" y="286" fill="#C7F9FF" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">explain the process</text>
+  <text x="900" y="314" fill="#E5E7EB" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">apply with evidence</text>
 
-  <rect x="254" y="304" width="201" height="32" rx="16" fill="#0B1220" fill-opacity="0.84" stroke="#1E293B"/>
-  <text x="285" y="325" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Practical Troubleshooting</text>
-
-  <rect x="467" y="304" width="152" height="32" rx="16" fill="#0B1220" fill-opacity="0.84" stroke="#1E293B"/>
-  <text x="500" y="325" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">HTML / CSS / JS</text>
-
-  <rect x="905" y="66" width="252" height="122" rx="24" fill="#0B1220" fill-opacity="0.78" stroke="white" stroke-opacity="0.08"/>
-  <rect x="935" y="95" width="192" height="10" rx="5" fill="url(#pill)"/>
-  <rect x="935" y="122" width="138" height="10" rx="5" fill="#1E293B"/>
-  <rect x="935" y="149" width="164" height="10" rx="5" fill="#1E293B"/>
-  <text x="935" y="83" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">Current direction</text>
-
-  <text x="932" y="232" fill="#93C5FD" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="600">Based in Hildesheim, Germany</text>
+  <rect x="1012" y="342" width="172" height="28" rx="14" fill="url(#orange)" fill-opacity="0.95"/>
+  <text x="1046" y="361" fill="#111827" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="800">proof over claims</text>
 </svg>
-
