@@ -9,57 +9,73 @@
   <a href="mailto:mail@furkankorhan.com">
     <img src="https://img.shields.io/badge/Email-mail%40furkankorhan.com-0f766e?style=for-the-badge&logo=gmail&logoColor=white" alt="Email badge" />
   </a>
-  <img src="https://img.shields.io/badge/Location-Hildesheim%2C%20Germany-0284c7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location badge" />
+  <img src="https://img.shields.io/badge/Hildesheim-Germany-0284c7?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Location badge" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Seeking-Ausbildung%202026-111827?style=flat-square" alt="Ausbildung 2026 badge" />
-  <img src="https://img.shields.io/badge/Primary%20Track-Systemintegration-164e63?style=flat-square" alt="Systemintegration badge" />
-  <img src="https://img.shields.io/badge/Secondary%20Track-Anwendungsentwicklung-1d4ed8?style=flat-square" alt="Anwendungsentwicklung badge" />
-  <img src="https://img.shields.io/badge/German-A1%20to%20B1-0f766e?style=flat-square" alt="German level badge" />
+  <img src="https://img.shields.io/badge/Goal-IT%20Ausbildung%202026-111827?style=flat-square" alt="IT Ausbildung 2026 badge" />
+  <img src="https://img.shields.io/badge/Main%20Direction-Informatik-164e63?style=flat-square" alt="Informatik badge" />
+  <img src="https://img.shields.io/badge/Building-Proof%20Over%20Claims-1d4ed8?style=flat-square" alt="Proof over claims badge" />
+  <img src="https://img.shields.io/badge/German-A1%20%E2%86%92%20B1-0f766e?style=flat-square" alt="German learning badge" />
 </p>
 
-> Building a practical route into IT in Germany through systems work, web tooling and small public projects.
+> I am building my way into IT with practical projects, public notes and a clear learning path.
 
-I am based in Hildesheim and currently preparing for an IT Ausbildung. My strongest background is hands-on technical work: system setup, troubleshooting, Linux, hosting, domains and WordPress. In parallel, I am strengthening HTML, CSS and JavaScript through small public builds and improving my German for interviews and day-to-day work.
+## Hello, I am Furkan
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+I am based in Hildesheim, Germany and preparing for an IT Ausbildung in 2026. My path into tech started early: computers, Android experiments, hosting, domains, Linux, WordPress, VPS setups and many small technical problems that made me curious enough to keep digging.
 
-### What I Bring
+Right now I am turning that curiosity into something more structured: small public projects, cleaner documentation, stronger fundamentals and better German for interviews and daily work.
 
-- Practical systems mindset and problem solving
-- Linux, terminal, virtualization and setup basics
-- Hosting, domains, WordPress and web tooling experience
-- A public learning path with small projects and steady improvement
+```text
+Current direction:
+learn the fundamentals -> build small proof -> document the process -> apply better
+```
 
-    </td>
-    <td width="50%" valign="top">
+## What Makes This Profile Different
 
-### Current Focus
+I do not want this GitHub to be a list of random repositories. I want it to show how I think:
 
-- Build a clean public portfolio on GitHub
-- Publish stronger HTML, CSS and JavaScript projects
-- Prepare for Ausbildung applications and interviews
-- Grow from practical IT work into a structured career path
+- I break unclear problems into smaller checks.
+- I prefer practical troubleshooting over memorized theory.
+- I document what I learn so it becomes reusable.
+- I use AI as a tool, but I do not want to publish things I cannot explain.
+- I am building a bridge between systems work and web development.
 
-    </td>
-  </tr>
-</table>
+## Current Focus Board
+
+| Area | What I am building | Why it matters |
+|---|---|---|
+| IT systems | Network troubleshooting notes | Shows practical Systemintegration thinking |
+| Terminal & Linux | Command notes with real examples | Builds daily technical confidence |
+| Web basics | Small HTML/CSS/JS projects | Gives visible proof for Anwendungsentwicklung interest |
+| Applications | Ausbildung tracker and portfolio | Keeps the search organized and measurable |
+| German | Simple IT explanations in German | Prepares for interviews and workplace communication |
 
 ## Toolbox
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,powershell,git,github,vscode,html,css,js,wordpress,docker,androidstudio,figma,ps&perline=7" alt="Skill icons" />
+  <img src="https://skillicons.dev/icons?i=linux,bash,git,github,vscode,html,css,js,wordpress,docker,figma,ps&perline=6" alt="Skill icons" />
 </p>
 
-## Selected Work
+I am currently strongest in practical setup, web tooling, hosting, domains, troubleshooting and learning fast from examples. I am actively strengthening programming fundamentals with JavaScript and Python.
 
-- [personal-website](https://github.com/furkankorhan/personal-website) - personal landing page built with HTML and CSS
-- [furkankorhan](https://github.com/furkankorhan/furkankorhan) - profile README and public introduction
+## Proof I Am Working On
+
+These are not meant to look huge. They are meant to be clear, honest and explainable.
+
+- **Home Network Troubleshooting Checklist** - a step-by-step guide for common internet problems
+- **Terminal & Linux Notes** - practical commands with examples and explanations
+- **Application Tracker** - a small tool/workflow for Ausbildung applications
+- **Basic Programming Exercises** - small JavaScript/Python exercises I can explain line by line
+
+When a project is public and ready, I will link it here.
+
+## Short German Version
+
+Ich bereite mich aktuell auf eine IT-Ausbildung in Deutschland vor. Besonders interessieren mich Informatik, IT-Systeme, Fehlersuche, Webentwicklung und praktische technische Probleme. Dieses GitHub-Profil zeigt nicht nur fertige Projekte, sondern auch meinen Lernweg und meine Arbeitsweise.
 
 ## Contact
 
-- Website: https://furkankorhan.com
-- Email: mail@furkankorhan.com
+- Website: [furkankorhan.com](https://furkankorhan.com)
+- Email: [mail@furkankorhan.com](mailto:mail@furkankorhan.com)
