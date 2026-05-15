@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/furkankorhan/furkankorhan/main/assets/hero-banner.png?cache=20260515-5" alt="Furkan Korhan hero banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/furkankorhan/furkankorhan/main/assets/hero-banner.png?cache=20260515-6" alt="Furkan Korhan hero banner" width="100%" />
 </p>
 
 <p align="center">
