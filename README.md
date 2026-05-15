@@ -53,11 +53,11 @@ current loop: understand the core -> test it -> build a small proof -> explain i
 
 | Track | What I am turning into proof | Status |
 |---|---|---|
-| IT systems | Home network troubleshooting checklist | active |
+| IT systems | [IT Troubleshooting Playbook](https://github.com/furkankorhan/it-troubleshooting-playbook) | active |
 | Terminal | Linux/macOS command notes with examples | active |
-| Web basics | Portfolio site and small UI pieces | active |
+| Web basics | [Portfolio site](https://github.com/furkankorhan/furkankorhan-portfolio) and small UI pieces | active |
 | Programming | JavaScript/Python fundamentals I can explain line by line | learning |
-| Applications | Ausbildung target tracker and portfolio system | active |
+| Applications | [Application Tracker](https://github.com/furkankorhan/application-tracker) and portfolio system | active |
 | German | Short IT explanations in German | daily work |
 
 ## Tools I am working with
