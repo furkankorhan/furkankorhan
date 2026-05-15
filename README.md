@@ -13,7 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/IT%20Ausbildung-2026-111827?style=flat-square" alt="IT Ausbildung 2026" />
+  <img src="https://img.shields.io/badge/Informatik-Systems%20%7C%20Web%20%7C%20Docs-111827?style=flat-square" alt="Informatik Systems Web Docs" />
   <img src="https://img.shields.io/badge/Direction-Informatik-D65B1F?style=flat-square" alt="Informatik" />
   <img src="https://img.shields.io/badge/Method-Build%20%7C%20Explain%20%7C%20Apply-1F9BB4?style=flat-square" alt="Build Explain Apply" />
 </p>
@@ -22,12 +22,12 @@
 
 It is a public workbench.
 
-I am preparing for an IT Ausbildung in Germany and using this GitHub to show the part that a CV cannot show well: how I learn, how I break problems down, how I document, and how I turn curiosity into small working outputs.
+I use this GitHub to show the part that a CV cannot show well: how I understand technical problems, break them down, document them, and turn curiosity into small working outputs.
 
-My background is practical and messy in the good way: computers since childhood, Android experiments, hosting, domains, WordPress, Linux, VPS, small scripts, repair attempts, web tools and many technical rabbit holes. Now I am converting that into a cleaner professional direction.
+My background is practical and broad: computers since childhood, Android experiments, hosting, domains, WordPress, Linux, VPS, small scripts, repair attempts, web tools and many technical rabbit holes. Now I am turning that experience into clearer, testable proof.
 
 ```txt
-current loop: notice a weak point -> learn the core -> build a small proof -> explain it simply
+current loop: understand the core -> test it -> build a small proof -> explain it simply
 ```
 
 ## Signal
@@ -53,9 +53,9 @@ current loop: notice a weak point -> learn the core -> build a small proof -> ex
 
 | Track | What I am turning into proof | Status |
 |---|---|---|
-| IT systems | Home network troubleshooting checklist | building |
-| Terminal | Linux/macOS command notes with examples | building |
-| Web basics | Small HTML/CSS/JS exercises and UI pieces | building |
+| IT systems | Home network troubleshooting checklist | active |
+| Terminal | Linux/macOS command notes with examples | active |
+| Web basics | Portfolio site and small UI pieces | active |
 | Programming | JavaScript/Python fundamentals I can explain line by line | learning |
 | Applications | Ausbildung target tracker and portfolio system | active |
 | German | Short IT explanations in German | daily work |
@@ -79,12 +79,12 @@ He is early, but serious.
 He can learn from unclear problems.
 He documents instead of only consuming.
 He has a visual sense and a technical direction.
-He is building proof for an IT Ausbildung, not just saying he wants one.
+He can turn practical curiosity into visible technical proof.
 ```
 
 ## German short version
 
-Ich bereite mich auf eine IT-Ausbildung in Deutschland vor. Dieses GitHub-Profil zeigt meinen Lernweg, kleine technische Projekte und meine Art, Probleme praktisch zu verstehen und zu dokumentieren.
+Ich interessiere mich für Informatik, IT-Systeme, Webentwicklung und praktische Fehleranalyse. Dieses GitHub-Profil zeigt kleine technische Projekte, Notizen und meine Art, Probleme zu verstehen, zu testen und verständlich zu dokumentieren.
 
 ## Links
 
