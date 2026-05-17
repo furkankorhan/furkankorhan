@@ -66,7 +66,7 @@ current loop: understand the core -> test it -> build a small proof -> explain i
 | Project | What it shows |
 |---|---|
 | [Portfolio](https://github.com/furkankorhan/furkankorhan-portfolio) | Next.js, TypeScript, design, deployment, custom domain |
-| [Application Tracker](https://github.com/furkankorhan/application-tracker) | HTML/CSS/JavaScript, localStorage, tables, workflow thinking |
+| [Application Tracker](https://github.com/furkankorhan/application-tracker) / [Live Demo](https://furkankorhan.com/application-tracker) | HTML/CSS/JavaScript, localStorage, tables, workflow thinking |
 | [Task Tracker CLI](https://github.com/furkankorhan/task-tracker-cli) | Python, SQLite, command-line basics, CRUD |
 | [Password Generator](https://github.com/furkankorhan/password-generator) | JavaScript DOM work, browser crypto API, GitHub Pages |
 | [IT Troubleshooting Playbook](https://github.com/furkankorhan/it-troubleshooting-playbook) | Networking basics, DNS/DHCP/gateway notes, technical documentation |
