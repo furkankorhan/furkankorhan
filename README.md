@@ -55,7 +55,7 @@ current loop: understand the core -> test it -> build a small proof -> explain i
 |---|---|---|
 | IT systems | [IT Troubleshooting Playbook](https://github.com/furkankorhan/it-troubleshooting-playbook) | active |
 | Terminal | Linux/macOS command notes with examples | active |
-| Web basics | [Portfolio site](https://github.com/furkankorhan/furkankorhan-portfolio), [Password Generator](https://github.com/furkankorhan/password-generator) and small UI pieces | active |
+| Web basics | [Portfolio site](https://github.com/furkankorhan/furkankorhan-portfolio), [Password Generator](https://github.com/furkankorhan/password-generator), [Weather Dashboard](https://furkankorhan.com/weather-dashboard) and small UI pieces | active |
 | Programming | [Task Tracker CLI](https://github.com/furkankorhan/task-tracker-cli) and JavaScript/Python fundamentals I can explain line by line | learning |
 | Applications | [Application Tracker](https://github.com/furkankorhan/application-tracker) and portfolio system | active |
 | Creative web | [Wiki Rabbit Hole](https://github.com/furkankorhan/wiki-rabbit-hole) as a larger browser-based JavaScript exercise | active |
@@ -67,7 +67,8 @@ current loop: understand the core -> test it -> build a small proof -> explain i
 |---|---|
 | [Portfolio](https://github.com/furkankorhan/furkankorhan-portfolio) | Next.js, TypeScript, design, deployment, custom domain |
 | [Application Tracker](https://github.com/furkankorhan/application-tracker) / [Live Demo](https://furkankorhan.com/application-tracker) | HTML/CSS/JavaScript, localStorage, tables, workflow thinking |
-| [Task Tracker CLI](https://github.com/furkankorhan/task-tracker-cli) | Python, SQLite, command-line basics, CRUD |
+| [Weather Dashboard](https://furkankorhan.com/weather-dashboard) | API fetch, city search, loading/error states, forecast data |
+| [Task Tracker CLI](https://github.com/furkankorhan/task-tracker-cli) | Python, SQLite, command-line basics, CRUD and basic tests |
 | [Password Generator](https://github.com/furkankorhan/password-generator) | JavaScript DOM work, browser crypto API, GitHub Pages |
 | [IT Troubleshooting Playbook](https://github.com/furkankorhan/it-troubleshooting-playbook) | Networking basics, DNS/DHCP/gateway notes, technical documentation |
 | [Wiki Rabbit Hole](https://github.com/furkankorhan/wiki-rabbit-hole) | Larger vanilla JavaScript app, API usage, state and UI handling |
